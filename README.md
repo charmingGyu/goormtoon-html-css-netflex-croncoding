@@ -1,18 +1,14 @@
 # 넷플릭스 클론코딩
 
-## 만들게 될 넷플릭스 사이트
+## 만들게 될 넷플릭스 사이트 & HTML 구조
 
-![Untitled4.png](%E1%84%82%E1%85%A6%E1%86%BA%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%AB%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%204727800c47a843bb97f7a0bd7ed8897e/Untitled4.png)
+![Untitled 2](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/29809bd5-9400-446a-a3e2-6ab123442646)
 
 ## 만든 웹사이트
 
-![Untitled](%E1%84%82%E1%85%A6%E1%86%BA%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%AB%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%204727800c47a843bb97f7a0bd7ed8897e/Untitled.png)
+![Untitled](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/914e885a-15fe-4a52-8dfb-d5d344c0e67e)
 
-![Untitled](%E1%84%82%E1%85%A6%E1%86%BA%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%AB%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%204727800c47a843bb97f7a0bd7ed8897e/Untitled%201.png)
-
-## html 구조
-
-![Untitled](%E1%84%82%E1%85%A6%E1%86%BA%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%AB%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%204727800c47a843bb97f7a0bd7ed8897e/Untitled%202.png)
+![Untitled 1](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/c653b62e-6a97-4d4f-9472-7a65c5322001)
 
 ## 요구사항 정리
 
