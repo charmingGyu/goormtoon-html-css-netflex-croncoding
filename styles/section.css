@@ -1,0 +1,38 @@
+/* section */
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 0;
+  margin-left: 1vh;
+}
+.section-title {
+  font-size: 2rem;
+  color: white;
+  border: none;
+  font-weight: 800;
+}
+.section-movies {
+  display: flex;
+  overflow: hidden;
+}
+.movie-poster {
+  position: relative;
+  width: 11vw;
+  height: 27vh;
+  margin-left: 1.2vw;
+  cursor: pointer;
+  transition: z-index 0.2s;
+}
+.movie-poster-img {
+  width: 11vw;
+  height: 27vh;
+  transition: transform 0.3s;
+  border-radius: 0rem;
+}
+
+.movie-poster:hover {
+  z-index: 10;
+}
+.movie-poster-img:hover {
+  transform: scale(1.15);
+}

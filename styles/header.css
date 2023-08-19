@@ -1,0 +1,82 @@
+/* 스크롤바 없애기 */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* body  */
+body {
+  background-color: #202020;
+  margin: 0;
+}
+/* nav */
+nav {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 60vh;
+}
+/* nav background img */
+
+.backgroundImg {
+  object-fit: cover;
+  object-position: mid;
+  position: absolute;
+  z-index: -1;
+  height: 60vh;
+  width: 100vw;
+}
+
+/* nav menu, top */
+.nav-top {
+  padding: 0.7rem 1rem;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+.Netflix_Logo,
+.user_icon {
+  height: 1.5rem;
+  cursor: pointer;
+}
+/* nav bottom */
+.nav-bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 25vh;
+  margin-left: 25px;
+}
+.main-movie-name {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+.moive-buttons {
+  margin-top: 0.5rem;
+}
+.button-play,
+.button-MyList {
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(20, 20, 20, 0.5);
+  border: none;
+  padding: 2px 1rem;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.main-movie-info {
+  width: 40vw;
+  margin-top: 1rem;
+  color: white;
+  font-size: 0.3rem;
+  line-height: 1.1rem;
+  overflow: hidden;
+
+  /* 문장 3개로 제한하고, 넘어갈 경우 ... 으로 처리 */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}

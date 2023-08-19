@@ -1,0 +1,26 @@
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 0;
+  margin-left: 1vh;
+}
+.footer-title {
+  font-size: 2rem;
+  color: white;
+  border: none;
+  font-weight: 800;
+  margin-bottom: 1vh;
+}
+.footer-movies {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.footer-movie {
+  width: 11vw;
+  margin-left: 1.2vw;
+  cursor: pointer;
+}
