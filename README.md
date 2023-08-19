@@ -1,25 +1,25 @@
 # 넷플릭스 클론코딩
 
 ## 만들게 될 넷플릭스 사이트
----
+
 ![Untitled](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/f9179284-01a5-47a2-87a1-a59e80a4df69)
 
 
----
+
 ## 만든 웹사이트
----
+
 ![Untitled1](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/a205ff2c-f495-4699-b67c-e63ea9f73eae)
 
 ![Untitled3](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/eab10077-4682-4d57-8cb6-0315f76c2de6)
 
----
+
 ## html 구조
----
+
 ![Untitled4](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/bc14f8de-ceb2-42f6-9ddb-be29a79c2381)
 
----
+
 ## 요구사항 정리
----
+
 
 ### nav
 - backgroundImg
@@ -65,8 +65,8 @@
     
     footer-movies 에는 총 8가지 img 태그가 존재하고 flex로 구현함.
     
----
-### 조건
+
+## 조건
 
 - 1. flex-box 이용하기
     - nav-top, nav-bottom, section, section-movies, footer, footer-movies
