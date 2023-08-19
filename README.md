@@ -1,6 +1,6 @@
 # 넷플릭스 클론코딩
 
-## 만들게 될 넷플릭스 사이트 및 html 구조
+## 만들게 될 넷플릭스 사이트 / html 구조
 
 ![Untitled](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/b7e9c35f-59dc-4c22-ae08-b6d343369469)
 
