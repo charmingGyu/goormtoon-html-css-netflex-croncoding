@@ -1,6 +1,6 @@
 # 넷플릭스 클론코딩
 
-## 만들게 될 넷플릭스 사이트
+## 만들게 될 넷플릭스 사이트 및 html 구조
 
 ![Untitled](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/b7e9c35f-59dc-4c22-ae08-b6d343369469)
 
@@ -10,9 +10,6 @@
 
 ![Untitled 2](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/548f6ec8-5ebe-4aff-9ffc-85fb3c6ad8bc)
 
-## html 구조
-
-![Untitled 3](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/7f717c75-6e62-43c2-aeea-89d7813e4c97)
 
 ## 요구사항 정리
 
@@ -65,9 +62,9 @@
 
 ## 조건
 
-- 1. flex-box 이용하기
+1. flex-box 이용하기
     - nav-top, nav-bottom, section, section-movies, footer, footer-movies
     - 총 6군데 사용
 
-- 2. 영화포스터에 마우스로 호버하면 영화포스터의 사이즈가 크게 될 수 있도록
-    - section > moive를 hover할 시에 이미지가 0.3동안 천천히 이미지가 커지도록 설정하였음.
+2. 영화포스터에 마우스로 호버하면 영화포스터의 사이즈가 크게 될 수 있도록
+    - section > moive를 hover할 시에 이미지가 0.3초 동안 천천히 이미지가 커지도록 설정하였음.
