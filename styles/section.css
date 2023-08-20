@@ -1,7 +1,5 @@
 /* section */
 .section {
-  display: flex;
-  flex-direction: column;
   margin: 2vh 0;
   margin-left: 1vh;
 }
@@ -12,22 +10,20 @@
   font-weight: 800;
 }
 .section-movies {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100vw;
+  height: 28%;
   display: flex;
   overflow: hidden;
-}
-.movie-poster {
-  position: relative;
-  width: 11vw;
-  height: 27vh;
-  margin-left: 1.2vw;
-  cursor: pointer;
-  transition: z-index 0.2s;
+  flex-direction: row;
+  justify-content: left;
 }
 .movie-poster-img {
   width: 11vw;
-  height: 27vh;
-  transition: transform 0.3s;
-  border-radius: 0rem;
+  margin-left: 1.2vw;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .movie-poster:hover {
