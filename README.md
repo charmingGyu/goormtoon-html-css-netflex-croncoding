@@ -42,7 +42,7 @@
 
 - [section-title](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/577f44ed6a2b47a47271eefcbc9fa79c00bffbff/styles/section.css#L8)
     - nextflex Originals 라는 단어를 적음
-- [section-movies](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/577f44ed6a2b47a47271eefcbc9fa79c00bffbff/styles/section.css#L14)
+- [section-movies](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/ee5a3fa2ce69854d4ee05b92655fce82ca13fafc/styles/section.css#L12)
     - 8가지의 movie를 flex 라는 속성을 이용해서 배치
     - p > img 를 넣어주어 img에 호버할 시에 이미지가 커지는 효과를 주었다.
         - 구현이유
