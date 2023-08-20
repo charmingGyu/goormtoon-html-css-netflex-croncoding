@@ -1,35 +1,36 @@
 # 넷플릭스 클론코딩
 
-## 만들게 될 넷플릭스 사이트 / html 구조
+## 만들게 될 넷플릭스 사이트 & HTML 구조
 
-![Untitled](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/b7e9c35f-59dc-4c22-ae08-b6d343369469)
+![Untitled 2](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/29809bd5-9400-446a-a3e2-6ab123442646)
 
 ## 만든 웹사이트
 
-![Untitled 1](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/a692ea56-113b-4f56-aaf7-c07d9794ac83)
+![Untitled](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/914e885a-15fe-4a52-8dfb-d5d344c0e67e)
 
-![Untitled 2](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/548f6ec8-5ebe-4aff-9ffc-85fb3c6ad8bc)
-
+![Untitled 1](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/assets/101985441/c653b62e-6a97-4d4f-9472-7a65c5322001)
 
 ## 요구사항 정리
 
 ### nav
 
-- [backgroundImg](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/577f44ed6a2b47a47271eefcbc9fa79c00bffbff/styles/nav.css#L20)
+- [backgroundImg](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/3278befa038f1c7f6b7353db8a808967eb5d146a/styles/nav.css#L19)
     - 맨 뒤에 배치 되고 nav에 간섭없도록
         
         absolute와 z-index 활용.
         
-- [nav-top](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/577f44ed6a2b47a47271eefcbc9fa79c00bffbff/styles/nav.css#L30)
+    - 아래로 흐리게 하는 효과 추가
+        - before
+- [nav-top](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/3278befa038f1c7f6b7353db8a808967eb5d146a/styles/nav.css#L40)
     - 넷플릭스 logo, user icon 양 끝에 배치하기 위해 flex-box를 이용
-- [nav-bottom](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/577f44ed6a2b47a47271eefcbc9fa79c00bffbff/styles/nav.css#L42)
+- [nav-bottom](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/3278befa038f1c7f6b7353db8a808967eb5d146a/styles/nav.css#L51)
     - main-movie-name : 메인 영화 이름
     
     - movie-buttons(2개의 버튼 포함)
         - 기능은 흐리게 효과를 구현하기 위해 rgba에 alpha 속성을 0.5로 주었음.
         - Play
         - MyList
-    - main-movie-info : [영화 설명](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/577f44ed6a2b47a47271eefcbc9fa79c00bffbff/styles/nav.css#L77C10-L77C10)
+    - main-movie-info : [영화 설명](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/3278befa038f1c7f6b7353db8a808967eb5d146a/styles/nav.css#L87C12-L87C12)
         - overflow: hidden;
         - display: -webkit-box;
         - -webkit-line-clamp: 3;
@@ -62,9 +63,9 @@
 
 ## 조건
 
-1. flex-box 이용하기
+- 1. flex-box 이용하기
     - nav-top, nav-bottom, section, section-movies, footer, footer-movies
     - 총 6군데 사용
 
-2. 영화포스터에 마우스로 호버하면 영화포스터의 사이즈가 크게 될 수 있도록
-    - section > moive를 hover할 시에 이미지가 0.3초 동안 천천히 이미지가 커지도록 설정하였음.
+- 2. 영화포스터에 마우스로 호버하면 영화포스터의 사이즈가 크게 될 수 있도록
+    - section > moive를 hover할 시에 이미지가 0.3동안 천천히 이미지가 커지도록 설정하였음.
