@@ -44,10 +44,8 @@
     - nextflex Originals 라는 단어를 적음
 - [section-movies](https://github.com/leebongseung/goormtoon-html-css-netflex-croncoding/blob/ee5a3fa2ce69854d4ee05b92655fce82ca13fafc/styles/section.css#L12)
     - 8가지의 movie를 flex 라는 속성을 이용해서 배치
-    - p > img 를 넣어주어 img에 호버할 시에 이미지가 커지는 효과를 주었다.
-        - 구현이유
-            
-             처음엔 p태그가 없었는데 hover할시에 이미지가 변동이 안됐다 내가 생각하기엔 section-movies 를 display : flex 속성으로 flex-direction : row 로 설정하여서 제어가 안되었던 것 같다. p 태그를 넣어서 해결함.
+    - div > img 를 넣어주어 img에 호버할 시에 이미지가 커지는 효과를 주었다.
+    - width 는 vw 로 height 는 % 로 구현해서 창을 줄일때 자연스럽게 보이도록 구현하였음.
             
 
 ### footer
